@@ -1,0 +1,68 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+    .body, html{
+        background-image: url("imagens/sunset-mountain-retrowave-scenery-digital-art-4k-wallpaper-uhdpaper.com-187@1@n.jpg");    
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+
+        .login-completo{
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            min-height: 100vh;
+        }  
+
+            .borda{
+                background-color: rgba(0, 0, 0, 0.555);
+                box-shadow: 0px 0px 8px 2px #000000;
+                color: rgb(255, 255, 255);
+                border-radius: 20px;
+
+                width: 500px;
+                height: 670px;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;  
+                text-align: center;
+            }
+
+                .input-email-senha{
+                    background: transparent;
+                    outline: none;
+                    width: 430px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: none;
+                    border: 1px solid white;
+                    color: white;
+                    padding: 10px;
+                }
+
+                    .input-email-senha::placeholder{
+                        color: white;
+                    }
+        
+                .botao-login{
+                        text-align: center;
+                        color: white;
+                        background-color: #0dbe39;
+                        width: 400px;
+                        height: 50px;
+                        border-radius: 5px;
+                        transition: transform 0.3s;
+                        
+                    }
+                    .botao-login:hover {
+                        transform: scale(1.05);
+                    }
+
+                .link-esqueceu-criar{
+                    color: white;
+                }
